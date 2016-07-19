@@ -18,6 +18,7 @@
 
 ## Administrative
 
+* **OS** - macOS or Linux
 * **Text Editor** - Sublime Text, Atom, or VS Code.
 * **Node** - Download and install https://nodejs.org
 * **Google Chrome**
