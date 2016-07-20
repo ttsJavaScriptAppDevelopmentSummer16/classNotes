@@ -6,7 +6,7 @@
 2. Join our Slack Channel (javascript_summer16)
 3. Send me your GitHub username
 
-###**Due 7/26/2016**
+###**Due 7/26/2016:**
 
 4. Work with your partner to create a game of 'Rock Paper Scissors' that runs until one player has three wins
 
