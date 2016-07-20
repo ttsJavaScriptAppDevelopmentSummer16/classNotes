@@ -20,9 +20,9 @@
 	 ``` 
 	  to randomly select an item
 	- Output each players hand to the console
-	- Use if or switch statement to determine a winner of the round
+	- Use an `if` or `switch` statement to determine a winner of the round
 	- Output the round winner's name to the console
-	- Keep track of how many rounds each player has won
+	- Create a way to track how many rounds each player has won
 	- When one player wins 3 rounds, announce that player's name as the game winner
 	- Push the code to our class GitHub Repo
 	- See below for all possible winning outcomes
