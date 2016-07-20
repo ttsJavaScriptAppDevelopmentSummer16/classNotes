@@ -448,7 +448,13 @@ for(var i = 0; i < 10; i++) {
 
 	- Store the player names and number of wins for each player in variables
 	- Use a while loop to run the game until one player has 3 wins
-	- Use `parseInt(Math.random()*10)%3` to generate a number between 0 and 2 (0 == rock, 1 == paper, 2 == scissors)
+	- Use: 
+	  ```
+	  var weapons = ['rock' , 'paper', 'scissors'];
+		
+	  var weaponOfChoice = weapons[parseInt(Math.random()*weapons.length) %3];to generate a number between  (0 == rock, 1 == paper, 2 == scissors)
+	 ``` 
+	  to choose a weapon
 	- Output each players hand to the console
 	- Use if or switch statement to determine a winner of the round
 	- Output the round winner's name to the console.
