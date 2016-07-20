@@ -450,6 +450,9 @@ for(var i = 0; i < 10; i++) {
 2. Join our Slack Channel (javascript_summer16)
 3. Send me your GitHub username
 
+*note:<br>when naming your GitHub repo, please use the following naming convention:
+`rps_aw_lm`<br>(the project name + your team's initials)*
+
 ###**Due 7/26/2016:**
 
 4. Work with your partner to create a game of 'Rock Paper Scissors' that runs until one player has three wins
