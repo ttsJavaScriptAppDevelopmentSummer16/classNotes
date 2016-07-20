@@ -3,8 +3,13 @@
 ###**Due 7/21/2016:**
 
 1. Read the following tutorial [JavaScript Strings](http://www.javascriptkit.com/javatutors/string4.shtml) 
+	2. follow the code samples in Node 
 2. Join our Slack Channel (javascript_summer16)
 3. Send me your GitHub username
+
+*note:<br>when naming your GitHub repo, please use the following naming convention:
+`rps_aw_lm`<br>(the project name + your team's initials)*
+
 
 ###**Due 7/26/2016:**
 
