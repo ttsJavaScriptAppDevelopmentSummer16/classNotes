@@ -128,20 +128,7 @@ You're going to the grocery store and decide to use an array to keep track of yo
 ### Exercise 1 answer
 
 ```javascript
-var list = ['pop tarts', 'ramen noodles', 'chips', 'salsa', 'coffee'];
-list[4] = 'fair trade coffee';
-list.push('fruit loops');
-list.splice(2,2,'rice', 'beans');
-
-var cart = [];
-cart.push(list.pop());
-cart.push(list.shift());
-
-while(list.length > 0)
-    cart.push(list.pop());
-
-cart.sort().reverse();
-console.log("My cart contains: ", cart.join(',')); 
+// will be updated after all homework is submitted
 ```
 
 ## Objects
@@ -284,22 +271,8 @@ var course = {
 
 ### Addressing Objects Answer
 
-1. `course.name;`
-2. `course.teachers[1];`
-3. `course.students[0].name;`
-4. `course.students[1].computer.type;`
-5. `course.preReqs.equipment`
-6. `course.preReqs.equipment.OSOptions[1];`
-7. `course.preReqs.equipment.OSOptions.join(' or ');`
-8. see below:
-
 ```javascript
-var OSXStudents = [];
-for(var i = 0; i < course.students; i++) {
- if(course.students[i].computer.OS === 'OSX')
- 	OSXStudents.push(course.students[i]);
-}
-console.log(OSXStudents);
+// will be updated after all homework is turned in
 ```
 
  
@@ -375,7 +348,9 @@ students.indexOf({name:'julian'}); //-1 (meaning nothing was found)
 
 ###**Due 7/26/2016**
 
-1. Complete the above class challenges
+1. Complete the following class challenges
+  - [Exercise 1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20&%20Objects.md#exercise-1)
+  - [Exercise 2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2002%20-%20Data%20Structures%20-%20Arrays%20%26%20Objects.md#exercise-addressing-objects)
   - push the completed code to GitHub
   - use the naming convention `lesson_2_challenges_YOUR_INITIALS_HERE`
 
