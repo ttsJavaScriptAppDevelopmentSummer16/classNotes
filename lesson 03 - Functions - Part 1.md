@@ -239,7 +239,7 @@ Let's revisit Rock Paper Scissors...
 ## Homework
 
 ###**Due on 7/28/2016**
-- Complete the new [Rock Paper Scissors Challenge]()
+- Complete the new [Rock Paper Scissors Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/lesson%2003%20-%20Functions%20-%20Part%201.md#exercise-2-rps-revisited)
   - Push completed to GitHub with the name: RPS_functions_YOUR_INITIALS_HERE
 - Complete the [JavaScripting Module](https://github.com/sethvincent/javascripting) at [NodeSchool](http://nodeschool.io/)
 	- Upload a completed screenshot to Slack
