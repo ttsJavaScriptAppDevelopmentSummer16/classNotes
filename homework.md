@@ -101,11 +101,11 @@
 
 ###**Due 7/28/2016**
 - Complete the new [Rock Paper Scissors Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/lesson%2003%20-%20Functions%20-%20Part%201.md#exercise-2-rps-revisited)
-  - Push completed to GitHub with the name: RPS_functions_YOUR_INITIALS_HERE
+  - Push completed to GitHub with the name: `RPS_functions_YOUR_INITIALS_HERE`
 
 ###**Due 8/2/2016**
 -  Complete the [JavaScripting Module](https://github.com/sethvincent/javascripting) at [NodeSchool](http://nodeschool.io/)
 	- Upload a completed screenshot to Slack
 - Read the [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) book on closures. (chapters 1 - 5)
 	- Complete the code examples
-	- push to github with the name: YDKJS_closures_YOUR_INITIALS_HERE
+	- push to github with the name: `YDKJS_closures_YOUR_INITIALS_HERE`
