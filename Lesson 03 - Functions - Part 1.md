@@ -221,14 +221,14 @@ Let's revisit Rock Paper Scissors...
  	- Logs the hands played and name of the winner.
  	- If its a tie, log the hands played and "it's a tie".
  	- Returns the winner object (null if no winner)
-6. Define a function called playGame() that takes arguments `player1`, `player2`, and `playUntil`.
+6. Define a function called `playGame()` that takes arguments `player1`, `player2`, and `playUntil`.
 	- Play rounds until one of the players wins `playUntil` hands
 	- When one player has won enough games, return the winning player object
 7. Play a game to 5 wins
 
 **Mariel's Bonus Questions**
 
-- Define a function caled playTournament()
+- Define a function caled `playTournament()`
 	- Take 4 players and `playUntil` as arguments
 	- Play a game between the first two players, and the second two players
 	- Play a game between the winners of the first round.
