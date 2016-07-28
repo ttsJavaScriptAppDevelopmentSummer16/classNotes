@@ -100,7 +100,7 @@
 ## Class 3 - Functions - Part 1
 
 ###**Due 7/28/2016**
-- Complete the new [Rock Paper Scissors Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/lesson%2003%20-%20Functions%20-%20Part%201.md#exercise-2-rps-revisited)
+- Complete the new [Rock Paper Scissors Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2003%20-%20Functions%20-%20Part%201.md#exercise-2-rps-revisited)
   - Push completed to GitHub with the name: `RPS_functions_YOUR_INITIALS_HERE`
 
 ###**Due 8/2/2016**
