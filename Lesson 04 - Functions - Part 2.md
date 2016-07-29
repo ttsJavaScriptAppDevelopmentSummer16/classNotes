@@ -22,7 +22,7 @@ What are functions?
 - A function is an object, just like objects and arrays
 - A function and its return value are not the same thing.
 - Defining a function requires PBR (Parameters, body, return value)
-- ![PBR](http://i.huffpost.com/gen/2079828/images/n-PABST-BLUE-RIBBON-628x314.jpg)
+![PBR](http://i.huffpost.com/gen/2079828/images/n-PABST-BLUE-RIBBON-628x314.jpg)
 	- **Parameters** - What input does the function need in order to run?
 	- **Body** - What will the function do with that information?
 	- **Return** - What output will executing the function give back?
