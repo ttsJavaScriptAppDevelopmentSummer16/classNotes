@@ -6,20 +6,42 @@
 	- function
 	- scope
 	- closures
-- Tonight, we'll cover 
+- Tonight, we'll cover  
 	- Passing functions as arguments
+	- Higher Order Functions
 	- working with Array data
-		- This is important when workign with API data
+		- This is important when working with API data
 	- Asynchronous programming patterns
 		- These are super common in UI development like React, jQuery, or even vanilla JS. 
+
+## One more thing on scope...
+### Immediately Invoked Function Expressions (IIFE)
+
+Sometimes you want to create a scope so that you can have private variables. One way to do that is to create an anonymous function and immediately execute it.
+
+```javascript
+(function(){
+	var myVar = "look mom, private variables!";
+	
+	//Do some stuff with myVar...
+})();
+
+console.log(myVar); //undefined;
+
+```
+
+Another note about IIFE's is that the code is executed immediately, which can serve particular benefits when used at the appropriate time.
+
 
 ## Functions as Function Arguments
 Because functions are objects, they can be passed in to other functions as arguments.
 
-### A contrived example
+### Higher Order Functions
 
-```javascript
-//Declare an add function
+##### A contrived example
+
+```javascript==
+==//Declare an add function
 function add(number1, number2) {
 	return number1 + number2;
 }
@@ -32,6 +54,16 @@ function doMath(operation, number1, number2) {
 //Pass a function into another.
 var sum = doMath(add, 1, 2);
 ```
+
+In the above example, `doMath` is a higher order function<br>
+*Higher Order Functions:*<br>
+	*- Take another function as an argument<br>or<br>*
+	*- Return a function*
+
+Additionally, `add` is considered a *callback function* (more on that later), because it has been passed as an argument to `doMath`
+
+
+More than likely, in your own development, you've already been using Higher Order Functions. Now you have a name for it!
 
 ### Filter
 Sometimes you want to filter a data set based on some criteria. The Array object supports a .filter function. It takes a filter function that returns a pass value of true or false.
@@ -113,7 +145,23 @@ totalAssignments === 24;
 
 ```
 
-## Exercise 1 (using array functions)
+### Immediately Invoked Function Expressions (IIFE)
+
+Sometimes you want to create a scope so that you can have private variables. One way to do that is to create an anonymous function and immediately execute it.
+
+```javascript
+
+(function(){
+	var myVar = "look mom, private variables!";
+	
+	//Do some stuff with myVar...
+})();
+
+console.log(myVar); //undefined;
+
+```
+
+## Exercise 1 (Using Array Functions)
 
 1. Create an Array named `superHeroes`
 	- Inside the superHeroes array create the following arrays: <br>
@@ -149,7 +197,7 @@ console.log(secretIdentity.join("\n"));
 ```
 - - - - 
 
-## Exercise 2: Array Functions
+## Exercise 2: (Using Array Functions)
 
 
 Using the following data:
@@ -216,14 +264,17 @@ players
 In computer programs, asynchronous operation means that a process operates independently of other processes, whereas synchronous operation means that the process runs only as a result of some other process being completed or handing off operation. 
 
 #### _Why_ is this important?
-- Allows for user to continue interacting with the application while request is being handled
+Asynchronus programming:<br>
+
+- Allows for the user to continue interacting with the application while request is being handled
+- Improves efficiency
 - Saves us from expensive full-page reloads
-- Multiple requests can be sent and fulfilled 
+- Allows for multiple requests to be sent and fulfilled 
 
 ### Callback pattern
 The passing of a function into another function to be run at a later time is called the "callback pattern". It's prominent in event based programming, which is what UI Development is all about.
 
-Do something later
+##### Do something later
 
 ```javascript
 setTimeout(function(){
@@ -233,7 +284,7 @@ setTimeout(function(){
 console.log('now');
 ```
 
-Do something if a button gets clicked
+##### Do something if a button gets clicked
 
 ```javascript
 button.addEventListener('click', function(){
@@ -241,7 +292,7 @@ button.addEventListener('click', function(){
 })
 ```
 
-Do something when an API request comes back (getData is a hypothetical function)
+##### Do something when an API request comes back (getData is a hypothetical function)
 
 ```javascript
 getData('/my-api/data', function(data) {
@@ -249,8 +300,8 @@ getData('/my-api/data', function(data) {
 });
 ```
 
-### This with async functions
-The above example is pretty straight forward, but can get tricky when functions are passed around in asynchronous functions. You will, without doubt, make a mistake like this the first time you write a JS application:
+### `this` with async functions
+The above example is pretty straight forward, but can get tricky when callback functions are passed around in asynchronous functions. You will, without doubt, make a mistake like this the first time you write a JS application:
 
 ```javascript
 var teacher = {
@@ -336,7 +387,7 @@ Going back to our slideshow object, let's add some functionality.
 4. Automatically pause the slideshow if it gets to the end of the photolist while playing.
 
 
-## Exercise 3 Answer
+<!--## Exercise 3 Answer
 ```javascript
 var slideshow = {
     photoList: ['birds', 'puppies', 'rainbows', 'kittens', 'babies'],
@@ -379,10 +430,14 @@ var slideshow = {
 }
 
 ```
-
+-->
 
 ## Homework
-- Complete the Javascripting module at [NodeSchool](https://github.com/sethvincent/javascripting)
+- Complete Exercise #3 [Async Programming]()
+	- Create a branch off of your existing slideshow
+	- For your branch use the naming convention `async_YOUR_NAME_HERE`
+- Complete the [Functional Javascript](https://github.com/timoxley/functional-javascript-workshop) module at [NodeSchool](http://nodeschool.io/)
+	- Upload a screenshot to Slack 
 
 
 ## Reading
