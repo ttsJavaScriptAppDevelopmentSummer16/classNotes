@@ -132,6 +132,8 @@
 
 ## Class 5 - Functions - Part 3
 
+###**Due 8/4/2016**
+
 - Complete Exercise #3 [Async Programming](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2005%20-%20Functions%20-%20Part%203.md#exercise-3-async-programming)
 	- Create a branch off of your existing slideshow
 	- For your branch use the naming convention `async_YOUR_NAME_HERE`
