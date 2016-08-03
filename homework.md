@@ -127,3 +127,13 @@
 	- Complete the code examples
 	- push to github with the name: YDKJS_closures_YOUR_INITIALS_HERE
 - Watch [this](https://teamtreehouse.com/library/understanding-this-in-javascript-2) TeamTreehouse video on scope
+
+- - - - 
+
+## Class 5 - Functions - Part 3
+
+- Complete Exercise #3 [Async Programming](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2005%20-%20Functions%20-%20Part%203.md#exercise-3-async-programming)
+	- Create a branch off of your existing slideshow
+	- For your branch use the naming convention `async_YOUR_NAME_HERE`
+- Complete the [Functional Javascript](https://github.com/timoxley/functional-javascript-workshop) module at [NodeSchool](http://nodeschool.io/)
+	- Upload a screenshot to Slack 
