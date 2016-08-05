@@ -319,6 +319,10 @@ Let's say you're getting updated user settings from an API, but you don't want t
 - Complete the [Prototype](https://github.com/sporto/planetproto) Nodeschool Module
 	- upload the a screenshot of the completed module on slack 
 - Read [this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
+	- Write at least 1 sentence for each chapter, either...
+		- explaining what you've learned
+		- describing 1 'takeway' or 'aha! moment
+	- Turn in the sentences on Slack DM
 
 
 ### Object Orientation
