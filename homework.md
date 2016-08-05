@@ -145,7 +145,7 @@
 
 ## Class 6 - Object Orientation in JavaScript - Constructors, Prototypal Inheritance & Object Composition
 
-###**Due 8/9/2016
+###**Due 8/9/2016**
 
 - Complete [Exercise #3](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2006%20-%20Object%20Orientation%20in%20JavaScript.md#exercise-3-mixins) from the class notes
   - push your solution to GitHub with the name `mixin_challenge_YOUR_INITIALS_HERE`
