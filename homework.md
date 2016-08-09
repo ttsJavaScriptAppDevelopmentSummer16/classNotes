@@ -155,6 +155,7 @@
 - Read [this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
 	- Write at least 1 sentence for each chapter, either...
 		- explaining what you've learned
-		- describing 1 'takeway' or 'aha! moment
+		- describing 1 'takeway' or 'aha!' moment
 	- Turn in the sentences on Slack DM
+	
 - - - -
