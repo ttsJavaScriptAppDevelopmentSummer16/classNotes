@@ -1,4 +1,4 @@
-# Lesson 7 - JS in the Browser & DOM
+# Lesson 7 - JS in the Browser && DOM && Debugging
 
 ## Recap & Intro 
 
