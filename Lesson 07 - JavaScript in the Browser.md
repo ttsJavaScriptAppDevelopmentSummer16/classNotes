@@ -552,57 +552,57 @@ console.log("one for the " + littleBoy + " that lives " + whereHeLives);
  
 ![](images/baa.png)
 
-### Exercise Answer 
+<!--### Exercise Answer -->
 
-```javascript
-var woolOwners = [
-  {
-	  "master": 1
-  },
-  {
-  	"dame": 1
-  },
-  {
-	"little boy": 1,
-	"location": "down the lane"
-  }
-];
+<!--```javascript-->
+<!--var woolOwners = [-->
+<!--  {-->
+<!--	  "master": 1-->
+<!--  },-->
+<!--  {-->
+<!--  	"dame": 1-->
+<!--  },-->
+<!--  {-->
+<!--	"little boy": 1,-->
+<!--	"location": "down the lane"-->
+<!--  }-->
+<!--];-->
 
 
 
-var haveYouAnyWool = function() {
-	for (var i = 0; i < woolOwners.length; i++) {
-	var totalBags = totalBags + i;
-	}
-	return (i);
-};
+<!--var haveYouAnyWool = function() {-->
+<!--	for (var i = 0; i < woolOwners.length; i++) {-->
+<!--	var totalBags = totalBags + i;-->
+<!--	}-->
+<!--	return (i);-->
+<!--};-->
 
-var bags = haveYouAnyWool();
+<!--var bags = haveYouAnyWool();-->
 
-function baabaaBlackSheep() {
-	console.log("BaaBaa BlackSheep have you any wool?");
-	if (bags > 0) {
-		console.log("yes sir, yes sir " + bags + " bags full");
-  }
-}
+<!--function baabaaBlackSheep() {-->
+<!--	console.log("BaaBaa BlackSheep have you any wool?");-->
+<!--	if (bags > 0) {-->
+<!--		console.log("yes sir, yes sir " + bags + " bags full");-->
+<!--  }-->
+<!--}-->
 
-function oneForMy() {
-	for (var i = 0; i < 2; i++) {
-		people = Object.keys(woolOwners[i]);
-		var person = people.toString();
-		console.log("one for my " + person);
-	}
-}
+<!--function oneForMy() {-->
+<!--	for (var i = 0; i < 2; i++) {-->
+<!--		people = Object.keys(woolOwners[i]);-->
+<!--		var person = people.toString();-->
+<!--		console.log("one for my " + person);-->
+<!--	}-->
+<!--}-->
 
-baabaaBlackSheep();
-oneForMy();
+<!--baabaaBlackSheep();-->
+<!--oneForMy();-->
 
-var boy = Object.keys(woolOwners[2]);
-var littleBoy = boy[0];
+<!--var boy = Object.keys(woolOwners[2]);-->
+<!--var littleBoy = boy[0];-->
 
-var whereHeLives = woolOwners[2].location;
-console.log("one for the " + littleBoy + " that lives " + whereHeLives);
-```
+<!--var whereHeLives = woolOwners[2].location;-->
+<!--console.log("one for the " + littleBoy + " that lives " + whereHeLives);-->
+<!--```-->
 	
 <!--
 - Some scripts with errors that you have to debug
@@ -615,9 +615,9 @@ console.log("one for the " + littleBoy + " that lives " + whereHeLives);
 
 ## Homework
 
-###** Due 8/11/16**
+###**Due 8/11/16**
 
-- Complete the [BaaBaaBlackSheep]()debugging challenge (individually)
+- Complete the [BaaBaaBlackSheep](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2007%20-%20JavaScript%20in%20the%20Browser.md#exercise-1)debugging challenge (individually)
   - Driver - push the code to repo with the naming convention: `js_debugging_YOUR_TEAMS_INTIALS_HERE`
   - Navigator - clone the repoe and create a new branch to work from 
   
