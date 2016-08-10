@@ -159,3 +159,18 @@
 	- Turn in the sentences on Slack DM
 	
 - - - -
+
+## Class 7 - JavaScript in the Browser, DOM & Debugging
+
+###**Due 8/11/16**
+
+- Complete the [BaaBaaBlackSheep](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2007%20-%20JavaScript%20in%20the%20Browser.md#exercise-1) debugging challenge (individually)
+	- Driver - push the code to repo with the naming convention: `js_debugging_YOUR_TEAMS_INTIALS_HERE`
+	- Navigator - clone the repoe and create a new branch to work from 
+  
+### **Due 8/16/16**
+
+- Read this [excellent blog post](http://juliepagano.com/blog/2014/05/18/javascript-debugging-for-beginners/) about developer tools.
+- Complete the [Discover DevTools](https://www.codeschool.com/courses/discover-devtools) course at CodeSchool
+	- upload screenshot of completed course to slack
+- Provide feedback of which exercise was more beneficial (also, feel free to say both) 
