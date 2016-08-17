@@ -191,3 +191,12 @@
 	- **Extra Credit:** - When a list item is clicked, cross it out, then remove it after 1 second.
 
 - Complete the [CodeSchool jQuery](https://www.codeschool.com/courses/try-jquery) course
+
+- - - - 
+
+## Class 9 - jQuery
+
+- Re-create your ToDo App with jQuery
+- compare to your previous Vanilla JS ToDo App
+- Add comments explaning what each jQuery method is accomplishing
+- Push to our class GitHub using the naming convention: `jQuery_ToDo_YOUR_INITIALS_HERE`
