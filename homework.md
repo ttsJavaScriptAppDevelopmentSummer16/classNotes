@@ -196,6 +196,8 @@
 
 ## Class 9 - jQuery
 
+###**Due 8/18/16**
+
 - Re-create your ToDo App with jQuery
 - compare to your previous Vanilla JS ToDo App
 - Add comments explaning what each jQuery method is accomplishing
