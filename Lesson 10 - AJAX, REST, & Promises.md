@@ -528,11 +528,11 @@ fetch('http://jsonplaceholder.typicode.com/todos/1')
 
 ## Homework
 Using the API at http://jsonplaceholder.typicode.com/ create an app with the following functionality. Use Promises for everything.
-- Complete [Exercise 1](https://gitlab.com/assafweinberg/tts-javascript-class/blob/master/lesson%2010%20-%20APIs%20&%20Promises.md#exercise-1-rest)
+- Complete [Exercise 1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-1-rest)
     - Push to GitHub using the naming convention: `ajax_exercise_YOUR_INITIALS_HERE`
 - Complete the [promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) nodeschool module
     - upload a screensot to slack
-- Complete the [Promises Challenge](https://gitlab.com/assafweinberg/tts-javascript-class/blob/master/lesson%2010%20-%20APIs%20&%20Promises.md#exercise-2-working-with-promises) 
+- Complete the [Promises Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-2---working-with-promises) 
     - Push to GitHub using the following naming convention: `promises_YOUR_TEAM_INTIALS_HERE`
 
 ## Resources and Extra Reading
