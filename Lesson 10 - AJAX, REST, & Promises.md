@@ -528,12 +528,17 @@ Using the API at http://jsonplaceholder.typicode.com/ create an app with the fol
 	- A back link to the user homepage
 
 ## Homework
-Using the API at http://jsonplaceholder.typicode.com/ create an app with the following functionality. Use Promises for everything.
+
+###**Due 8/30/16**
+
 - Complete [Exercise 1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-1-rest)
     - Push to GitHub using the naming convention: `ajax_exercise_YOUR_INITIALS_HERE`
 - Complete the [promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) nodeschool module
     - upload a screensot to slack
-- Complete the [Promises Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-2---working-with-promises) 
+ 
+###**Due 9/1/16**
+
+- Work with your partner to complete the [Promises Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-2---working-with-promises) 
     - Push to GitHub using the following naming convention: `promises_YOUR_TEAM_INTIALS_HERE`
 
 ## Resources and Extra Reading
