@@ -507,6 +507,7 @@ fetch('http://jsonplaceholder.typicode.com/todos/1')
 ```
 
 ## Exercise 2 - Working with Promises
+Using the API at http://jsonplaceholder.typicode.com/ create an app with the following functionality. Use Promises for everything.
 
 1. **Login page** - Display a login form asking user for a username.
 	- On Submit, look up the username entered by the user.
