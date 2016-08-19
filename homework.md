@@ -202,3 +202,19 @@
 - compare to your previous Vanilla JS ToDo App
 - Add comments explaning what each jQuery method is accomplishing
 - Push to our class GitHub using the naming convention: `jQuery_ToDo_YOUR_INITIALS_HERE`
+
+- - - -
+
+## Class 10 - AJAX, REST & Promises 
+
+###**Due 8/30/16**
+
+- Complete [Exercise 1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-1-rest)
+    - Push to GitHub using the naming convention: `ajax_exercise_YOUR_INITIALS_HERE`
+- Complete the [promise it won't hurt](https://github.com/stevekane/promise-it-wont-hurt) nodeschool module
+    - upload a screensot to slack
+ 
+###**Due 9/1/16**
+
+- Work with your partner to complete the [Promises Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-2---working-with-promises) 
+    - Push to GitHub using the following naming convention: `promises_YOUR_TEAM_INTIALS_HERE`
