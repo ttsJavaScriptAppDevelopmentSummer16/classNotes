@@ -204,7 +204,7 @@ Use jQuery to do the following things with the http://jsonplaceholder.typicode.c
 
     - Get all posts
     - Get post with id of 10
-    - Get the comments from post with id of 12 <br> *note: comments are part of a different data model, you'll need to structure your endpoint to hit all of the comments that belong to post #12*
+    - Get the comments from post with id of 12 <br> *note: comments are part of a different data model, you'll need to structure your endpoint to ask for all of the comments that belong to post #12*
     - Get all the posts from user with id of 2
     - Create a new post and log the id generated for it by the server
     - Replace the post with id of 12 and render the responseJSON
