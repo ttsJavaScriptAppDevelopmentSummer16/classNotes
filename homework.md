@@ -221,7 +221,7 @@
 
 - - - -
 
-## Lesson 11 - JS Application Setup and TDD.md
+## Lesson 11 - JS Application Setup and TDD
 
 ###**Due 8/30/16**
 
