@@ -218,3 +218,22 @@
 
 - Work with your partner to complete the [Promises Challenge](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2010%20-%20AJAX%2C%20REST%2C%20%26%20Promises.md#exercise-2---working-with-promises) 
     - Push to GitHub using the following naming convention: `promises_YOUR_TEAM_INTIALS_HERE`
+
+- - - -
+
+## Lesson 11 - JS Application Setup and TDD.md
+
+###**Due 8/30/16**
+
+- Complete the [how-to-npm](https://github.com/npm/how-to-npm) module and post a screenshot to slack
+    - Some notes about this particular module
+    - On Challenge 03:<br> make sure to follow the steps exactly <br> run: `npm init --scope=<username>` entering the username created from the previous step<br>*note: if this is not done correctly, later challenges will NOT pass*
+    - For Challenge 11:<br> make sure you are using the a version number that has been published<br> the answer should look something like this `npm dist-tag add @yourusername/how-to-npm@1.1.6 ['stuff']`<br> *note: replace `@yourusername` with the Username supplied in Challenge 02, replace the version number with a version number previously published*
+- Watch [Importing and exporting modules with Node.js](https://youtu.be/P51O_PT7NUg) 
+- Complete [Exercise 3](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2011%20-%20JS%20Application%20Setup%20and%20TDD.md#exercise-3-modular-code) on Modular code
+    - Push the completed code to GitHub using the naming convention: `module_exercise_YOUR_INTIALS_HERE`
+- Read (and follow along with) the [Learn TDD](https://github.com/dwyl/learn-tdd) tutorial 
+    - Do not clone the repo (feel free to fork it though!)
+    - complete each step 
+    - complete the bonus steps *skipping Bonus Step 3 on Continuous Integration*.<br> *note: feel free to read the section, continuous integration is awesome!*
+    - push the completed code to our class GitHub using the naming convetion: `always_write_tests_YOUR_INITIALS_HERE` 
