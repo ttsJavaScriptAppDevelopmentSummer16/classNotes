@@ -237,3 +237,19 @@
     - complete each step 
     - complete the bonus steps *skipping Bonus Step 3 on Continuous Integration*.<br> *note: feel free to read the section, continuous integration is awesome!*
     - push the completed code to our class GitHub using the naming convetion: `always_write_tests_YOUR_INITIALS_HERE` 
+
+- - - -
+
+## Lesson 12 - Webpack 
+
+###**Due 9/6/16**
+
+- Complete [Exercise #2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2012%20-%20Webpack.md#exercise-2)
+    - push completed code to GitHub using naming convention: `webpack_dice_YOUR_TEAM_INITIALS_HERE`
+- Find a blog on webpack and post it to the main slack channel 
+    - Your blog post has to be unique
+    - All posts will be added to this lesson's footnotes
+- Complete the Pro React [Webpack](http://www.pro-react.com/materials/appendixA/) tutorial 
+    - Follow along, writing all the code in the examples
+    - push to GitHub using the naming convention: `rp_webpack_YOUR_INITIALS_HERE`
+
