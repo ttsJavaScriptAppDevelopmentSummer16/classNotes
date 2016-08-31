@@ -358,7 +358,6 @@ console.log(names);
     - [Challenge 1](http://tddbin.com/?251#?kata=es6/language/template-strings/basics)
     - [Challenge 2](http://tddbin.com/?169#?kata=es6/language/template-strings/multiline)
     - [Challenge 5](http://tddbin.com/?908#?kata=es6/language/arrow-functions/basics)
-    - [Challenge 6](http://tddbin.com/?506#?kata=es6/language/arrow-functions/binding)
     - [Challenge 57](http://tddbin.com/?728#?kata=es6/language/default-parameters/basics)
 
 ## Reading
