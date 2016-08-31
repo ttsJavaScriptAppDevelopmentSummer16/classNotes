@@ -5,7 +5,6 @@
 - We also discussed the use of loaders in your webpack config
 - Tonight we'll be discussing ES2015, the newest specification of JavaScript
 
-
 ## Agenda
 
 - Tonight we'll cover the changes that ES2015 offers, including:
