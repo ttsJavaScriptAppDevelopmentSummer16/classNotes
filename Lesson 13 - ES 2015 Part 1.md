@@ -255,11 +255,11 @@ If you remember from lesson #5 when dealing with callbacks, you have to implemen
 As a refresher:
 
 ```javascript
-var teacher = {
+const teacher = {
     name: 'Shane',
     speak: function() {
 
-        var boundFunction = function(){
+        let boundFunction = function(){
             console.log('later my name is ' + this.name);
         }
 
@@ -275,12 +275,12 @@ Obviously, this is not the intended result we're looking for. In ES5 there are s
 
 ##### *the old-fashioned way*
 ```javascript
-var teacher = {
+const teacher = {
     name: 'Shane',
     speak: function() {
 
         //Bind a function to a specific context
-        var boundFunction = function(){
+        let boundFunction = function(){
             console.log('later my name is ' + this.name);
         }.bind(this);
 
@@ -299,7 +299,7 @@ Thankfully ES2015 solves the problem with **arrow functions**
 
 ##### *the ES2015 way*
 ```javascript
-var teacher = {
+const teacher = {
     name: 'Shane',
     speak() {
         let boundFunction = () => {
@@ -327,16 +327,32 @@ Which simply means: **arrow functions bind to the scope of where they are *defin
 
 ##### with an argument
 ```javascript
-var students = [
+let students = [
   { name: "Edwin"}, 
   { name: "Kim"}, 
   { name: "Skip"}
-  ];
+];
 
-var names = students.map((student) => {return student.name});
+let names = students.map((student) => student.name);
 
 console.log(names);
 // ["Edwin","Kim","Skip"]
+```
+
+Another note is that arrow functions *implicitly return* when consolidated to one line 
+
+meaning that.. 
+
+```javascript
+let names = students.map((student) => student.name);
+```
+
+is equal to:
+
+```javascript
+let names = students.map((student) => {
+    return student.name
+});
 ```
 
 ## Exercise
@@ -359,6 +375,9 @@ console.log(names);
     - [Challenge 2](http://tddbin.com/?169#?kata=es6/language/template-strings/multiline)
     - [Challenge 5](http://tddbin.com/?908#?kata=es6/language/arrow-functions/basics)
     - [Challenge 57](http://tddbin.com/?728#?kata=es6/language/default-parameters/basics)
+ 
+
+***Note: For extra practice with ES2015 you can use the [babel.js repl](https://babeljs.io/repl/) or our [class transpiler](https://github.com/ttsJavaScriptAppDevelopmentSummer16/ES2015_transpiler)***
 
 ## Reading
 
