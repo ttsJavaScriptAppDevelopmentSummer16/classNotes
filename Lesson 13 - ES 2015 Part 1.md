@@ -347,14 +347,14 @@ console.log(names);
 
 ###**Due 9/1/16** 
 
-- complete the first 4 challenges of the [Count to 6](https://github.com/domenic/count-to-6) module at [NodeSchool](http://nodeschool.io/)
+- Complete the first 4 challenges of the [Count to 6](https://github.com/domenic/count-to-6) module at [NodeSchool](http://nodeschool.io/)
     - this includes:
         - Hello ES6
         - Template Strings
         - Arrow Functions pt 1
         - Arrow Functions  and `this`
     - send in a screenshot of the 4 completed lessons
-- Complete The following modules in ES6 Katas 
+- Complete the following modules in ES6 Katas 
     - [Challenge 1](http://tddbin.com/?251#?kata=es6/language/template-strings/basics)
     - [Challenge 2](http://tddbin.com/?169#?kata=es6/language/template-strings/multiline)
     - [Challenge 5](http://tddbin.com/?908#?kata=es6/language/arrow-functions/basics)
