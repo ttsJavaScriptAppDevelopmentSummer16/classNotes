@@ -341,7 +341,7 @@ console.log(names);
 
 ## Exercise
 
-- Make the tests pass for #5 and #6 (arrow functions) at [ES6Katas](http://tddbin.com/?118#?kata=es6/language/arrow-functions/basics)
+- Make the tests pass for challenge #5 (arrow functions) at [ES6Katas](http://tddbin.com/?118#?kata=es6/language/arrow-functions/basics)
 
 ## Homework 
 
