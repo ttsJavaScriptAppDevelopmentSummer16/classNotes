@@ -253,3 +253,22 @@
     - Follow along, writing all the code in the examples
     - push to GitHub using the naming convention: `rp_webpack_YOUR_INITIALS_HERE`
 
+- - - - 
+
+## Lesson 13 - ES 2015 Part 1 - Template Literals, New Variable Declarations, Default Parameters and Arrow Functions
+
+###**Due 9/1/16** 
+
+- Complete the first 4 challenges of the [Count to 6](https://github.com/domenic/count-to-6) module at [NodeSchool](http://nodeschool.io/)
+    - this includes:
+        - Hello ES6
+        - Template Strings
+        - Arrow Functions pt 1
+        - Arrow Functions  and `this`
+    - send in a screenshot of the 4 completed lessons
+- Complete the following modules in ES6 Katas 
+    - [Challenge 1](http://tddbin.com/?251#?kata=es6/language/template-strings/basics)
+    - [Challenge 2](http://tddbin.com/?169#?kata=es6/language/template-strings/multiline)
+    - [Challenge 5](http://tddbin.com/?908#?kata=es6/language/arrow-functions/basics)
+    - [Challenge 6](http://tddbin.com/?506#?kata=es6/language/arrow-functions/binding)
+    - [Challenge 57](http://tddbin.com/?728#?kata=es6/language/default-parameters/basics)
