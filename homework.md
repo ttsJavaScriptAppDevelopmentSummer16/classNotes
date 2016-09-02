@@ -271,3 +271,19 @@
     - [Challenge 2](http://tddbin.com/?169#?kata=es6/language/template-strings/multiline)
     - [Challenge 5](http://tddbin.com/?908#?kata=es6/language/arrow-functions/basics)
     - [Challenge 57](http://tddbin.com/?728#?kata=es6/language/default-parameters/basics)
+
+- - - - 
+
+## Lesson 14 - ES2015 Part 2 - Rest and Spread, Destructuring, Class Sytnax, and Modules
+
+###**Due 9/6/16**
+- complete the remainder of the [Count to 6](https://github.com/domenic/count-to-6) NodeSchool Module
+- complete the [tower-of-babel](https://github.com/yosuke-furukawa/tower-of-babel) NodeSchool Module
+    - upload screenshots to slack
+- complete challenges 10-15, 22-28, and 61 at [ES6 Katas](http://es6katas.org/)
+    - upload completed screenshots to slack
+
+###**Due 9/8/16**
+- complete [this](http://ccoenraets.github.io/es6-tutorial/) ES2015 tutorial
+    - push the code to our class GitHub using the naming convention `es6_tutorial_YOUR_INITIALS_HERE`
+- watch these 2 videos:<br><center>[![Factory Functions](http://img.youtube.com/vi/ImwrezYhw4w/0.jpg)](https://www.youtube.com/watch?v=ImwrezYhw4w) [![Composition over Inheritance](http://img.youtube.com/vi/wfMtDGfHWpA/0.jpg)](https://www.youtube.com/watch?v=wfMtDGfHWpA)</center>
