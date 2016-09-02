@@ -698,11 +698,12 @@ console.log(student);
 - complete challenges 10-15, 22-28, and 61 at [ES6 Katas](http://es6katas.org/)
     - upload completed screenshots to slack
 
-##**Due 9/8/16**
+###**Due 9/8/16**
 - complete [this](http://ccoenraets.github.io/es6-tutorial/) ES2015 tutorial
     - push the code to our class GitHub using the naming convention `es6_tutorial_YOUR_INITIALS_HERE`
 - watch these 2 videos:<br><center>[![Factory Functions](http://img.youtube.com/vi/ImwrezYhw4w/0.jpg)](https://www.youtube.com/watch?v=ImwrezYhw4w) [![Composition over Inheritance](http://img.youtube.com/vi/wfMtDGfHWpA/0.jpg)](https://www.youtube.com/watch?v=wfMtDGfHWpA)</center>
 
+- - - - 
 
 ## Reading
 [ES6 Overview](https://ponyfoo.com/articles/es6)<br>
