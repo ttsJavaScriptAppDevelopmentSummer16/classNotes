@@ -287,3 +287,19 @@
 - complete [this](http://ccoenraets.github.io/es6-tutorial/) ES2015 tutorial
     - push the code to our class GitHub using the naming convention `es6_tutorial_YOUR_INITIALS_HERE`
 - watch these 2 videos:<br><center>[![Factory Functions](http://img.youtube.com/vi/ImwrezYhw4w/0.jpg)](https://www.youtube.com/watch?v=ImwrezYhw4w) [![Composition over Inheritance](http://img.youtube.com/vi/wfMtDGfHWpA/0.jpg)](https://www.youtube.com/watch?v=wfMtDGfHWpA)</center>
+
+- - - - 
+
+## Lesson 15 - React Intro
+
+###**Due 9/9/16**
+
+- Read and Review the Class Notes from [React Intro](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#lesson-14---react) specifically: 
+  - [Iterative Rendering](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#iterative-rendering)
+  - [Dynamic Class Names](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#dynamic-class-names)
+  - [Inline Styles](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#inline-styles)
+- READ the documentation at [Create React App](https://github.com/facebookincubator/create-react-app)
+- Create a new Application (with create react app) named `react_message_YOUR_INITIALS_HERE`
+	- Complete Exercises [#1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-1-rendering-a-simple-component) and [#2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-2-rendering-components-with-logic)
+	- push the completed code to GitHub
+	
