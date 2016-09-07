@@ -279,7 +279,7 @@ Like we said before, JSX isn't really HTML. Because it lives in the same context
 ## Exercise 1: Rendering a Simple Component
 Let's create our first component! 
 
-1. Clone the boilerplate project from `git@github.com:ttsJavaScriptApps/webpack-boilerplate.git`
+1. Clone the boilerplate project from the repo we just created 
 2. In index.jsx, create a component class called `MessageInput` that renders:
 	1. A text input called
 	2. A label for the text input (clicking it should focus the input)
@@ -455,7 +455,7 @@ render() {
 
 ```
 
-A better approach is to use the 'classnames' module
+A better approach is to use the [classnames](https://github.com/JedWatson/classnames) module
 
 ```javascript
 import classNames from 'classnames';
@@ -543,7 +543,7 @@ Navigate to [localhost:3000](http://localhost:3000) and you'll see a starter pag
   - [Inline Styles](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#inline-styles)
 - READ the documentation at [Create React App](https://github.com/facebookincubator/create-react-app)
 - Create a new Application (with create react app) named `react_message_YOUR_INITIALS_HERE`
-	- Complete Exercises [#1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-1-rendering-a-simple-component) and [#2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-2-rendering-components-with-logic)
+	- Complete Exercises [#1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-1-rendering-a-simple-component) and [#2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-2-rendering-components-with-logic) in your newly created app
 	- push the completed code to GitHub
 	
 
