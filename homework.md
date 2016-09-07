@@ -292,7 +292,7 @@
 
 ## Lesson 15 - React Intro
 
-###**Due 9/9/16**
+###**Due 9/8/16**
 
 - Read and Review the Class Notes from [React Intro](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#lesson-14---react) specifically: 
   - [Iterative Rendering](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#iterative-rendering)
