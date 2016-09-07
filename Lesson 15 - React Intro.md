@@ -1,4 +1,4 @@
-# Lesson 15 - React
+# Lesson 15 - React Intro
 
 ## Recap & Intro
 - We've come a long way! We've learned
