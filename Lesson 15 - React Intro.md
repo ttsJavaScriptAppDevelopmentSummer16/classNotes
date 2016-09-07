@@ -345,12 +345,14 @@ render() {
 ***note: tokens don't have to come exlusively from state. They can be calculated. e.g.***
 
 ```javascript
+// ...
 render() {
 	var statement = "message is: " + this.state.message;
 	return (
 		<div>{statement}</div>
 	);
 }
+// ...
 ```
 
 According to [The React Documentation on State](https://facebook.github.io/react/docs/interactivity-and-dynamic-uis.html#components-are-just-state-machines): 
@@ -365,6 +367,7 @@ Often times we want to render one thing in one case, and something else in anoth
 #### Use JavaScript!
 
 ```javascript
+// ...
 // this.state = { person : 'Matt'};
 
 render() {
@@ -379,6 +382,7 @@ render() {
 		<div>{message}</div>
 	);
 }
+// ...
 ```
 
 ### Inline
@@ -418,6 +422,7 @@ render() {
 		<ul>{students}</ul>
 	);
 }
+// ...
 ```
 
 Something to note above is the use of the `key` property. 
@@ -432,12 +437,12 @@ According to the [React - *Special Non-DOM Attributes* Documentation](https://fa
 In other words, for React to keep track of (and properly update) dynamically generated elements, you must give items a ***unique key***
 
 
-
 ## Dynamic Class Names
 
 One of the most common dynamic elements is the list of classes an element has applied. The simple way to do this is to use javascript logic to concat a string.
 
 ```javascript
+// ...
 //this.state = {active: true}
 
 render() {
@@ -452,13 +457,14 @@ render() {
 		<div className={classes}></div>
 	);
 }
-
+// ...
 ```
 
 A better approach is to use the [classnames](https://github.com/JedWatson/classnames) module
 
 ```javascript
 import classNames from 'classnames';
+// ...
 
 render() {
 	var classes = classNames({
@@ -470,6 +476,8 @@ render() {
 		<div className={classes}></div>
 	);
 }
+
+// ...
 
 ```
 
