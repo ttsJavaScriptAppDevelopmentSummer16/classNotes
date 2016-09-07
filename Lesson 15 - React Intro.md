@@ -8,6 +8,14 @@
 	- Application Setup & Compilation
 - At this point we have all the concepts we need
 - Today, we learn about React!
+- More Specifically, we'll be covering
+	- What React is (and is not) 
+	- Core Concepts
+	- React Setup and Configuration
+	- React Components
+	- JSX
+	- Component State (`this.state = {}`)
+	- React CLI
 
 ## What is React?
 
@@ -527,13 +535,15 @@ Navigate to [localhost:3000](http://localhost:3000) and you'll see a starter pag
 
 ## Homework 
 
+###**Due 9/9/16**
+
 - Read and Review the Class Notes from [React Intro]() specifically: 
-  - [Iterative Rendering]()
-  - [Dynamic Class Names]()
-  - [Inline Styles]()
+  - [Iterative Rendering](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#iterative-rendering)
+  - [Dynamic Class Names](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#dynamic-class-names)
+  - [Inline Styles](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#inline-styles)
 - READ the documentation at [Create React App](https://github.com/facebookincubator/create-react-app)
 - Create a new Application (with create react app) named `react_message_YOUR_INITIALS_HERE`
-	- Complete Exercises [#1]() and [#2]()
+	- Complete Exercises [#1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-1-rendering-a-simple-component) and [#2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-2-rendering-components-with-logic)
 	- push the completed code to GitHub
 	
 
