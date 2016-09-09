@@ -307,7 +307,7 @@
 
 ## Lesson 16 - React Part 2
 
-###** Due 9/12/16**
+###**Due 9/12/16**
 
 - Work with your partner to decide which application you are going to use
   - rename the chosen repo on github to: `react_message_YOUR_TEAM_INITIALS_HERE`
