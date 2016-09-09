@@ -495,12 +495,12 @@ Let's break apart our monolithic component a bit.
 
 ## Homework
 
-###** Due 9/12/16**
+###**Due 9/12/16**
 
 - Work with your partner to decide which application you are going to use
   - rename the chosen repo on github to: `react_message_YOUR_TEAM_INITIALS_HERE`
   - check out a new branch
-  - Complete [Exercise 2]()
+  - Complete [Exercise 2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2016%20-%20React%20Part%202.md#exercise-2-composition)
   - Push your branch to GitHub
   - Merge 1 of the branches to master
 - Complete the [learnyoureact](https://github.com/tako-black/learnyoureact) module at [Nodeschool](http://nodeschool.io/)
