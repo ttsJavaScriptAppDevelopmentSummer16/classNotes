@@ -303,3 +303,19 @@
 	- Complete Exercises [#1](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-1-rendering-a-simple-component) and [#2](https://github.com/ttsJavaScriptAppDevelopmentSummer16/classNotes/blob/master/Lesson%2015%20-%20React%20Intro.md#exercise-2-rendering-components-with-logic)
 	- push the completed code to GitHub
 	
+- - - - 
+
+## Lesson 16 - React Part 2
+
+###** Due 9/12/16**
+
+- Work with your partner to decide which application you are going to use
+  - rename the chosen repo on github to: `react_message_YOUR_TEAM_INITIALS_HERE`
+  - check out a new branch
+  - Complete [Exercise 2]()
+  - Push your branch to GitHub
+  - Merge 1 of the branches to master
+- Complete the [learnyoureact](https://github.com/tako-black/learnyoureact) module at [Nodeschool](http://nodeschool.io/)
+  - Upload a completed screenshot to slack
+- Pass the first 4 [React Koans](https://github.com/arkency/reactjs_koans) tests
+  - Upload screenshot of passing tests to slack
