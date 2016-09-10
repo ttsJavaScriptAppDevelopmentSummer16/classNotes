@@ -363,23 +363,25 @@ Remember, functions are Objects! This means you can pass them in as props as wel
 
 ```javascript
 class TodoList extends React.Component {
-   constructor() {
-    super();
-    this.state = {listItems: [
-      {text: "Gym"},
-      {text: "Tan"},
-      {text: "Laundry"}
-    ]}
-  }
-  completeItem = (item) => {
+   // ...
+   
+     completeItem = (item, event) => {
+     // make a shallow copy of listItems (in state)
+     let listItems = this.state.listItems.slice()
 
-    let listItems = this.state.listItems.slice(listItems)
-    listItems.splice(listItems[item], 1)
+     // splice -  removes the chosen item from listItems
+     // indexOf - find the specific object in listItems
+     // 1 - remove only 1 item
+     listItems.splice(listItems.indexOf(item.props.todo), 1)
 
-    this.setState({listItems})
-  }
+     // update state with the modified listItems array
+     this.setState({listItems})
+   }
+
 
   render() {
+    {/* pass completeItem as a prop to the TodoItem component */}
+
     let items = this.state.listItems.map((item,i) => {
       return <TodoItem key={i} item={item} completeItem={this.completeItem} />
     })
@@ -389,12 +391,27 @@ class TodoList extends React.Component {
     );
   }
 }
+
+class TodoItem extends Component {
+  
+  render() {
+    return (
+      <div >
+        {/* invoke completeItem as a callback to the Click Event*/}
+        {/* pass in the specific item as our argument (this) */}
+        <h3 onClick={(e) => (this.props.completeItem(this, e))}>{this.props.todo.text}</h3>
+      </div>
+    )
+  }
+}
 ``` 
 
 What if we wanted to add a new ToDo Item? 
 
 ```javascript
+
 // ... 
+
 class TodoList extends React.Component {
    constructor() {
     super();
@@ -407,12 +424,8 @@ class TodoList extends React.Component {
       newItem: ''
     }
   }
-  completeItem = (item) => {
-    let listItems = this.state.listItems.slice(listItems)
-    listItems.splice(listItems[item], 1)
-
-    this.setState({listItems})
-  }
+  
+  // ... 
 
   _updateNewItem = (event) => {
     this.setState({newItem: event.target.value})
@@ -426,9 +439,8 @@ class TodoList extends React.Component {
   }
 
   render() {
-    let items = this.state.listItems.map((item,i) => {
-      return <TodoItem key={i} item={item} completeItem={this.completeItem} />
-    })
+   
+   // ... 
 
     return (
       <div>
