@@ -406,6 +406,49 @@ class TodoItem extends Component {
 }
 ``` 
 
+Two major things are going on to accomplish this: 
+
+1. In our TodoItem `render` method, we are using an anonymous arrow function to invoke our `completeItem` function 
+
+	```javascript
+	render() {
+	    return (
+	      <div >
+	        {/* invoke completeItem as a callback to the Click Event*/}
+	        {/* pass in the specific item as our argument (this) */}
+	        <h3 onClick={(e) => (this.props.completeItem(this, e))}>{this.props.todo.text}</h3>
+	      </div>
+	    )
+	  }
+	``` 
+	
+	look closely at: ` <h3 onClick={(e) => (this.props.completeItem(this, e))}>{this.props.todo.text}</h3>`
+	
+	we’ll then pass in the TodoItem, 
+	a.k.a: *(this)* 
+	as our first argument
+
+2. In our Parent component’s `completeItem` function…
+	- we are passing the TodoItem component as `completeItem`'s first argument
+	- making a copy of the listItems array (from state)
+	- splicing/removing the specific TodoItem (passed in from the click event)
+	- updating the component’s state to render the new changes
+
+	```javascript
+	   completeItem = (item, event) => {
+	     // make a shallow copy of listItems (in state)
+	     let listItems = this.state.listItems.slice()
+	
+	     // splice -  removes the chosen item from listItems
+	     // indexOf - find the specific object in listItems
+	     // 1 - remove only 1 item
+	     listItems.splice(listItems.indexOf(item.props.todo), 1)
+	
+	     // update state with the modified listItems array
+	     this.setState({listItems})
+	   }
+	```
+	
 What if we wanted to add a new ToDo Item? 
 
 ```javascript
