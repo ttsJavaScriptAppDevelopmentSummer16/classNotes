@@ -424,12 +424,11 @@ Two major things are going on to accomplish this:
 	
 	look closely at: ` <h3 onClick={(e) => (this.props.completeItem(this, e))}>{this.props.todo.text}</h3>`
 	
-	we’ll then pass in the TodoItem, 
-	a.k.a: *(this)* 
+	we’ll then pass in the TodoItem,<br>
+	a.k.a: **this**,<br>
 	as our first argument
 
 2. In our Parent component’s `completeItem` function…
-	- we are passing the TodoItem component as `completeItem`'s first argument
 	- making a copy of the listItems array (from state)
 	- splicing/removing the specific TodoItem (passed in from the click event)
 	- updating the component’s state to render the new changes
