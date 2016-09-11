@@ -136,7 +136,7 @@ Forms are where the difference between classic DOM elements and JSX components b
 
 Using the "value" property, this text input will ALWAYS have the value "Hello!", no matter what the user does
 
-```
+```javascript
 render() {
     return <input type="text" value="Hello!" />;
   }
