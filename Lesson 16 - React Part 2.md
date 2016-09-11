@@ -284,13 +284,59 @@ In the previous example, you probably noticed that we didn't pass any data from 
 
 From HTML, we're familiar with the concept of "properties" that configure an element's behavior. For example, an `<a>` tag accepts properties including `href` and `name` that are supplied by user of the element 
 
-```
+```html
 <a href="# name="myLink"></a>
 ```
 
-React components have a similar concept called `props`. **Props are JavaScript objects supplied by the Parent Component**. 
+React components have a similar concept called `props`. **Props are JavaScript objects supplied by the Parent Component**.
 
-We can pass data down to our `TodoItems` from our `ToDoList` like this:
+Before we get into our TodoList example, let's take an initial look at props
+
+##### A Simple Example
+```javascript
+// ... 
+
+class HelloMessage extends React.Component(
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+);
+ReactDOM.render(<HelloMessage name="Shane" />, 
+					document.getElementById('root'));
+```
+
+In the above example, We have simply setup our single HelloMessage component to recieve props. We then pass the props on our call to instantiate the component. 
+
+### Passing Props to Children
+
+```javascript
+class ChildComponent extends React.Component{
+  render() {
+    return <div style={{
+      color      : this.props.color,
+      background : this.props.background
+    }}>
+      I am {this.props.color}
+    </div>
+  }
+}
+
+class ParentComponent extends React.Component{
+  render() {
+    return (
+      <ChildComponent background={this.props.background} color={this.props.color} />
+    );
+  }
+)
+
+ReactDOM.render(
+  <ParentComponent color="green" background="red" />, 
+  document.getElementById('root'));
+```
+
+Here we have now made use of props by passing properties from the parent component down to the child component. 
+
+Getting back to our TodoList, You will see that we can pass data down to our `TodoItems` from our `TodoList` like this:
 
 ```javascript
 // ... 
