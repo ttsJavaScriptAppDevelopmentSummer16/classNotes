@@ -319,3 +319,12 @@
   - Upload a completed screenshot to slack
 - Pass the first 4 [React Koans](https://github.com/arkency/reactjs_koans) tests
   - Upload screenshot of passing tests to slack
+
+- - - - 
+
+## Lesson 17 - React LifeCycle
+
+###**Due 9/20/16**
+
+- Complete the [ReactJS Koans](https://github.com/arkency/reactjs_koans) exercies 
+- Read the following article on [shouldComponentUpdate](http://buildwithreact.com/article/optimizing-with-shouldcomponentupdate)
