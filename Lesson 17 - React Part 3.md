@@ -540,7 +540,7 @@ Now that you've had a chance to review the React LifeCycle, let's look at a more
 
 ## Homework
 
-### **Due 9/20/16**
+###**Due 9/20/16**
 
 - Complete the [ReactJS Koans](https://github.com/arkency/reactjs_koans) exercies 
 - Read the following article on [shouldComponentUpdate](http://buildwithreact.com/article/optimizing-with-shouldcomponentupdate)
