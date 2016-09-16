@@ -328,3 +328,16 @@
 
 - Complete the [ReactJS Koans](https://github.com/arkency/reactjs_koans) exercies 
 - Read the following article on [shouldComponentUpdate](http://buildwithreact.com/article/optimizing-with-shouldcomponentupdate)
+
+- - - - 
+
+## Lesson 18 - React Router
+
+###**Due 9/20/16**
+
+- Work with your partner to complete the [React Router Tutorial](https://github.com/ttsJavaScriptAppDevelopmentSummer16/react-router-tutorial)
+    - Clone the repo
+    - Create a new branch
+    - Push the changes back up to the class GitHub repo
+- Study [Delcrative Routing for React](https://react-router-website-uxmsaeusnn.now.sh/quick-start)
+    - Write about the example you find most interesting
