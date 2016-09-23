@@ -1,4 +1,4 @@
-Class 20 - Redux
+## Class 20 - Redux
 
 [Redux with React Documentation](http://redux.js.org/docs/basics/UsageWithReact.html)
 
